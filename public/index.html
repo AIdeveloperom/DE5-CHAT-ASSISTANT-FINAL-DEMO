@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DE5 Chat Assistant Demo</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Welcome to DE5</h1>
+    <p>DE5 is building an AI and blockchain-powered tokenization platform that democratizes capital access, creates liquidity, and supports a more inclusive financial ecosystem.</p>
+    <p>Chat with our AI assistant to learn more!</p>
+  </div>
+
+  <!-- Chat Widget -->
+  <div id="chat-widget">
+    <div id="chat-header">DE5 Assistant</div>
+    <div id="chat-messages"></div>
+    <div id="chat-input-container">
+      <input type="text" id="chat-input" placeholder="Ask me anything about DE5...">
+      <button id="send-button">Send</button>
+    </div>
+    <div id="lead-form" style="display: none;">
+      <input type="text" id="name" placeholder="Your Name">
+      <input type="email" id="email" placeholder="Your Email">
+      <select id="inquiry">
+        <option value="investor">Investor Inquiry</option>
+        <option value="issuer">Issuer Inquiry</option>
+        <option value="general">General Question</option>
+      </select>
+      <button id="submit-lead">Submit</button>
+    </div>
+  </div>
+
+  <script src="chat.js"></script>
+</body>
+</html>

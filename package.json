@@ -1,0 +1,15 @@
+{
+  "name": "de5-chat-assistant",
+  "version": "1.0.0",
+  "description": "AI-powered chat assistant for DE5 website",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "scrape": "node scraper.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "axios": "^1.6.0",
+    "cheerio": "^1.0.0-rc.12"
+  }
+}
