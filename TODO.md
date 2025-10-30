@@ -23,5 +23,5 @@
 ## Testing and Deployment
 - [x] Run scraper to populate knowledge base
 - [x] Start the server
-- [x] Test chat widget by opening demo page in browser
-- [x] Verify AI responses, knowledge retrieval, and lead capture
+- [ ] Test chat widget by opening demo page in browser
+- [ ] Verify AI responses, knowledge retrieval, and lead capture
